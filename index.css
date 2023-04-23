@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Tillana:wght@700;800&display=swap');
+
+body {
+    margin: 0;
+    background-color: black;
+}
+.cover {
+    width: 450px;
+    margin: auto;
+    background: white;
+    border-radius: 50px;
+    padding: 5px 0;
+    transform: scale(0.7);
+    height: 100%;
+    transform-origin: top;
+    margin-top: 20px;
+}
+.containerOutline {
+    width: 400px;
+    margin: auto;
+    border: 20px solid;
+    border-radius: 50px;
+    overflow: hidden;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+   
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+/* CSS for home screen */
+#homescreen {
+    background: linear-gradient(63.42deg, #DCFFFD 33.71%, rgba(168, 187, 255, 0) 107.02%);
+    padding-bottom: 30px;
+}
+.mainContainer img {
+    cursor: pointer;
+}
+.iconBox {
+    display: flex;
+    justify-content: right;
+    margin-right: 20px;
+}
+.homeTeddy {
+    margin-top: 25px;
+}
+.otherIcons {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 25px;
+}
+.otherIcons .levelIcon {
+    align-self: end;
+}
+.otherIcons .verticalIconBox {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.mainNav {
+    display: flex;
+    justify-content: space-between;
+    background: #FFFFFF;
+    box-shadow: 1px -1px 9px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    padding: 15px 30px;
+    align-items: center;
+}
+
+/* CSS for activities screen */
+#activities {
+    background: linear-gradient(63.42deg, #DCFFFD 33.71%, rgba(168, 187, 255, 0) 107.02%);
+    /* padding-bottom: 30px; */
+}
+.talkingTeddy {
+    background: #FFF9F3;
+    background: #FFF9F3;
+    display: flex;
+    justify-content: space-between;
+}
+.talkingTeddy .teddyImg {
+    align-self: end;
+    margin-top: 25px;
+}
+.talkingTeddy .textBox {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    background: #8A9AC6;
+    box-shadow: 0.3px 0.3px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 30px 30px 30px 0;
+    height: 100%;
+    padding: 20px;
+    margin-right: 20px;
+}
+.activityContainer {
+    overflow-y: scroll;
+    height: 550px;
+    font-size: 50px;
+    padding-bottom: 30px;
+    background: linear-gradient(179.98deg, #D2DFFE 0.02%, rgba(127, 224, 201, 0) 135.06%);
+}
+.activityContainer .addActivity {
+    text-align: center;
+}
+.activityContainer .boxes .box {
+    background: #FFFFFF;
+    box-shadow: 0.5px 0.5px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    margin: 40px;
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+}
+.activityContainer .boxes .box div {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #1E1E52;
+}
